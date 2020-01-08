@@ -1,0 +1,21 @@
+
+.form {
+
+    padding: 3rem;
+    font-size: 2rem;
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+    text-align: center;
+
+    &__label {
+        margin-right: 2rem;
+    }
+
+    &_input {
+
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border-radius: 2px;
+        border: none;
+
+    }
+}

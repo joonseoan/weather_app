@@ -1,0 +1,39 @@
+
+.display {
+    .city {
+        font-size: 6rem;
+    }
+
+    .weather {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(10rem, 1fr));
+
+        grid-row-gap: 1.5rem;
+        grid-column-gap: 1rem;
+    
+        &__display {
+            padding: 2rem;
+            list-style: none;
+            background-image: linear-gradient(to right bottom, #eeeeee, #777777); 
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &__day {
+                text-transform: uppercase;
+            }
+
+            &__image {
+                
+            }
+
+            &__temp {
+                font-weight: bold;
+            }
+
+        }
+
+    }
+}
